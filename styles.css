@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f0f4f8;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #003366;
+  padding: 15px;
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.home {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background: #0066cc;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
